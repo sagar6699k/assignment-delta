@@ -1,0 +1,32 @@
+{
+  "members": [
+    {
+      "name": "sagar",
+      "company": "delta_exchange",
+      "status": "active",
+      "notes": "SDE-1",
+      "id": 1
+    },
+    {
+      "name": "tushar",
+      "company": "synergy",
+      "status": "active",
+      "notes": "sss",
+      "id": 2
+    },
+    {
+      "name": "sam",
+      "company": "TCS",
+      "status": "closed",
+      "notes": "asas",
+      "id": 3
+    },
+    {
+      "name": "pankaj",
+      "company": "leetschool",
+      "status": "closed",
+      "notes": "yoyo",
+      "id": 4
+    }
+  ]
+}
