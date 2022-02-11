@@ -140,7 +140,7 @@ const Homepage = () => {
             </div>
 
             <div className="fiter_div">
-                <select onChange={handleCompany} name="company" id="">
+                <select name="company" id="">
                     <option value="none" selected disabled hidden>
                         Company
                     </option>
@@ -161,7 +161,13 @@ const Homepage = () => {
             <hr />
 
             {
-                !token && <div>Please Signup or Login</div>
+                !token && <div>
+                    <h2>Please Signup or Login</h2>
+                    <h3>steps to run this application</h3>
+                    <p>step1: for UI , 'npm start' </p>
+                    <p>step2: to run backend , 'npm start' </p>
+                    <p>step3: to run json server , 'json-server db.json --port 3001 --watch' </p>
+                </div>
             }
 
 
