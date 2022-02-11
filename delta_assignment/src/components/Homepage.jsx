@@ -108,15 +108,15 @@ const Homepage = () => {
         dispatch(update_member_success(updated_member));
     };
 
-    const handleCompany = async (e) => {
-        setStatus(e.target.value);
-        const Data = await axios.get("http://localhost:3001/members");
-        const updated_member = Data.data.filter(
-            (element) => element.status !== status
-        );
-        console.log(updated_member);
-        dispatch(update_member_success(updated_member));
-    };
+    // const handleCompany = async (e) => {
+    //     setStatus(e.target.value);
+    //     const Data = await axios.get("http://localhost:3001/members");
+    //     const updated_member = Data.data.filter(
+    //         (element) => element.company === status
+    //     );
+    //     console.log(updated_member);
+    //     dispatch(update_member_success(updated_member));
+    // };
 
     return (
         <div className="container">
